@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: 1.1em sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.display {
+  width: 270px;
+  margin-left: 30px;
+  flex: 1;
+  justify-content: flex-start;
+  background-color: black;
+  color: white;
+  height: 80px;
+  margin: 10px;
+}
+
+.calculator {
+  width: auto;
+  background-color: black;
+  border-radius: 20px;
+  padding: 30px;
+}
+.operators {
+  background-color: orange;
+  margin: 10px;
+  border: none;
+  width: 50px;
+  height: 50px;
+  font-weight: bolder;
+  border-radius: 50%;
+  justify-items: center;
+}
+.clear {
+  background-color: orange;
+  margin: 10px;
+  border: none;
+  width: 125px;
+  height: 50px;
+  font-weight: bolder;
+  border-radius: 10px;
+  justify-items: center;
+  cursor: pointer;
+}
+.numbers {
+  background-color: darkgray;
+  color: white;
+  margin: 10px;
+  border: none;
+  width: 50px;
+  height: 50px;
+  font-weight: bolder;
+  border-radius: 50%;
+  justify-items: center;
+}
+.equals {
+  background-color: orangered;
+  color: white;
+  margin: 10px;
+  border: none;
+  width: 125px;
+  height: 50px;
+  font-weight: bolder;
+  border-radius: 10px;
+  justify-items: center;
+}
+
+.numbers:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.operators:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.equals:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
